@@ -1,6 +1,11 @@
-name: Run
+name: List Participants
 
-on: [workflow_dispatch]
+on: 
+  workflow_dispatch:
+    inputs:
+      label:
+        description: 'Label used to filter the issues'     
+        required: false
 
 jobs:
   build:
@@ -10,8 +15,8 @@ jobs:
       run: |
         curl -s https://api.github.com/repos/golangroma/raffle/releases/latest | \
           jq -r '.assets[] | select(.name|test("linux-x86_64")) | .browser_download_url' | \
-          xargs wget -O raffle && \
+          xargs wget -q -O raffle && \
           chmod +x raffle
 
     - name: Run
-      run: ./raffle list ${GITHUB_REPOSITORY}
+      run: ./raffle list --label "${{ github.event.inputs.label }}" ${GITHUB_REPOSITORY}
