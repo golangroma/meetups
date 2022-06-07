@@ -6,15 +6,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-
-    - name: Set up Go
-      uses: actions/setup-go@v3
-      with:
-        go-version: 1.18
-
-    - name: Build
-      run: go build -v ./cmd/raffle
+    - name: Downloading raffle
+      run: |
+        curl -s https://api.github.com/repos/golangroma/raffle/releases/latest | \
+          jq -r '.assets[] | select(.name|test("linux-x86_64")) | .browser_download_url' | \
+          xargs wget -O raffle && \
+          chmod +x raffle
 
     - name: Run
       run: ./raffle list ${GITHUB_REPOSITORY}
