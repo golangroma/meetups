@@ -1,4 +1,4 @@
-name: List Participants
+name: Run Raffle
 
 on:
   workflow_dispatch:
@@ -19,4 +19,4 @@ jobs:
             chmod +x raffle
 
       - name: Run
-        run: ./raffle list --label "${{ github.event.inputs.label }}" ${GITHUB_REPOSITORY}
+        run: ./raffle run --label "${{ github.event.inputs.label }}" ${GITHUB_REPOSITORY}
