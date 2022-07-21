@@ -38,6 +38,7 @@ Event:
 
 Recording:
 - https://www.youtube.com/watch?v=31pJlXdA9Sk
+- https://talks.codemotion.com/il-rust-roma-presenta-il-golang-roma
 
 Slides:
 - https://github.com/golangroma/meetups/blob/main/2022-06-14/2022-06-14%20-%20Intro%20Golang%20Roma.pdf
