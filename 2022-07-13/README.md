@@ -33,7 +33,8 @@ Recording:
 - https://talks.codemotion.com/kubernetes-async-deployment-con-nats
 
 Slides:
-- https://github.com/golangroma/meetups/blob/main/2022-06-14/2022-07-13%20-%20Intro%20Golang%20Roma.pdf
+- https://github.com/golangroma/meetups/blob/main/2022-07-13/2022-07-13%20-%20Intro%20Golang%20Roma.pdf
+- https://github.com/golangroma/meetups/blob/main/2022-07-13/K8S%20async%20deploy%20with%20NATS.pdf
 
 Repo:
 - https://github.com/fdonzello/talks-golang-roma-nats-k8s
