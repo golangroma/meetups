@@ -1,4 +1,4 @@
-# 2022-07-13
+# 2022-09-20
 
 ## Location
 
@@ -10,7 +10,7 @@ Via Marsala, 29H, 00185 Roma RM, Italy
 Total: ~15
 
 Host: @enrichman  
-Speaker: @DavidePetilli
+Speaker: @k3rn31
 
 
 ## Agenda
