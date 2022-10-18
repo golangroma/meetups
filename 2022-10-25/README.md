@@ -27,3 +27,4 @@ Oltre alla lista completa di tutti progetti in [Go](https://github.com/topics/ha
 
 ### Rust
 
+- https://github.com/Exein-io/pulsar framework di sicurezza runtime per sistemi Linux basato su eBPF
