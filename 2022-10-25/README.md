@@ -21,6 +21,7 @@ Oltre alla lista completa di tutti progetti in [Go](https://github.com/topics/ha
 - https://github.com/golangroma/raffle il raffle del Golang Roma!
 - https://github.com/mastrogiovanni/etaireia progetto di @mastrogiovanni per la firma digitale in Onlus, scuole, enti caritativi...
 - https://github.com/go-gremlins/gremlins libreria di @k3rn31 per il mutation testing
+- https://github.com/enrichman/stegosecrets progetto di @enrichman per criptare e condividere secrets
 - https://github.com/metallb/metallb load balancer per Kubernetes
   - issue consigliate: [#1639](https://github.com/metallb/metallb/issues/1639), [#1577](https://github.com/metallb/metallb/issues/1577), [#1568](https://github.com/metallb/metallb/issues/1568), [#1447](https://github.com/metallb/metallb/issues/1447)
 
