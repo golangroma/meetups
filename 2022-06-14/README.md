@@ -1,5 +1,7 @@
 # 2022-06-14
 
+# Checksum Database e della sicurezza della filiera delle dipendenze
+
 ## Location
 
 The Hub - LVenture Group  
@@ -27,7 +29,7 @@ Speaker: @FiloSottile
 
 ## Agenda
 - Introduction
-- Checksum Database e della sicurezza della filiera delle dipendenze
+- Checksum Database e la sicurezza della filiera delle dipendenze
 - Raffle
 
 ## Links / Resources

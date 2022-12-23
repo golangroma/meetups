@@ -1,5 +1,7 @@
 # 2022-12-20
 
+# The black magic behind the blank identifier
+
 ## Location
 
 The Hub - LVenture Group  
@@ -7,7 +9,7 @@ Via Marsala, 29H, 00185 Roma RM, Italy
 
 ### Participants
 
-Host: @enrichman
+Host: @enrichman  
 Speaker: @enrichman
 
 
