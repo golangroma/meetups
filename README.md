@@ -6,3 +6,5 @@ Qui potete trovare tutte le risorse ed i contenuti dei vari Meetup
 - [2022-07-13](https://github.com/golangroma/meetups/tree/main/2022-07-13)
 - [2022-09-20](https://github.com/golangroma/meetups/tree/main/2022-09-20)
 - [2022-10-25](https://github.com/golangroma/meetups/tree/main/2022-10-25)
+- [2022-11-21](https://github.com/golangroma/meetups/tree/main/2022-11-21)
+- [2022-12-20](https://github.com/golangroma/meetups/tree/main/2022-12-20)
